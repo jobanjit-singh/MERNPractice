@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+</head>
+<body>
+    <form action="">
+        
+        <h3>Job Application</h3>
+
+        <label for="name">Name</label>
+        <br>
+        <input type="text" id="name">
+        <br><br>
+
+
+        <label for="phone">Phone</label>
+        <br>
+        <input type="text" id="phone">
+        <br><br>
+
+        <label for="email">Email</label>
+        <br>
+        <input type="text" id="email">
+        <br><br>
+
+        <label for="resume">Resume</label>
+        <br>
+        <input type="file" name="resume" id="resume">
+        <br><br>
+
+        <label for="expe">Experience (Years)</label>
+        <br>
+        <input type="number" name="expe" id="expe" max="50" min="0">
+        <br><br>
+
+        <fieldset>
+
+            <legend>Skills</legend>
+
+            <input type="checkbox" id="html">
+            <label for="html">HTML</label>
+            <br><br>
+
+            <input type="checkbox" id="css">
+            <label for="css">CSS</label>
+            <br><br>
+
+            <input type="checkbox" id="js">
+            <label for="js">JavaScript</label>
+            <br><br>
+            
+
+        </fieldset>
+        <br>
+        <label for="edu">Highest Education</label>
+        <br>
+        <select name="education" id="edu" value="select">
+            <option value="select">Select</option>
+            <option value="high school">High School</option>
+            <option value="Matric">Matric</option>
+        </select>
+
+        <br><br>
+        <label for="ava">Availiability</label>
+        <br>
+        <label for="part">Part Time</label>
+        <input type="radio" name="ava" id="part">
+        <br>
+        <label for="full">Full Time</label>
+        <input type="radio" name="ava" id="full">
+
+        <br><br>
+        <label for="comment">Additional Comments</label>
+        <br>
+        <textarea name="addi" id="comment" cols="30" rows="10"></textarea>
+        <br><br>
+        <button>Submit Application</button>
+    </form>
+</body>
+</html>
